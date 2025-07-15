@@ -18,7 +18,7 @@ const Mealinfo = () => {
         }
     },[mealid])
   return (
-    <div className=' bg-gradient-to-br from-orange-600 via-orange-700 to-orange-900 p-4 w-full h-screen flex items-center justify-center p-2'>
+    <div className=' bg-gradient-to-br from-orange-600 via-orange-700 to-orange-900 p-4 w-full md:h-screen flex items-center justify-center p-2'>
       <div className='grid grid-cols-1 md:grid-cols-2 overflow-hidden backdrop-blur-lg bg-orange-100/10 border border-orange-300/30 shadow-2xl rounded-xl p-6 mx-h-screen w-full max-w-3xl '>
       <div className='flex items-center justify-center h-full w-full'>
       <img src={data.strMealThumb} className='rounded-t-xl md:rounded-l-xl md:rounded-tr-none w-full h-full object-cover'/>
